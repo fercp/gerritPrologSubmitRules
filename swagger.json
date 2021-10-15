@@ -20,7 +20,7 @@
     "http"
   ],
   "paths": {
-    "/pet/{petId}": {
+    "/pet/{id}": {
       "get": {
         "tags": [
           "pet"
@@ -34,7 +34,7 @@
         ],
         "parameters": [
           {
-            "name": "petId",
+            "name": "id",
             "in": "path",
             "description": "ID of pet to return",
             "required": true,
