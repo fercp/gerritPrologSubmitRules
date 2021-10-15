@@ -340,14 +340,7 @@
           "application/xml",
           "application/json"
         ],
-        "parameters": [
-          {
-            "name": "Authorization",
-            "in": "header",
-            "required": false,
-            "type": "string",
-            "default": "Bearer alicanlakotbearer"
-          },
+        "parameters": [          
           {
             "name": "petId",
             "in": "path",
